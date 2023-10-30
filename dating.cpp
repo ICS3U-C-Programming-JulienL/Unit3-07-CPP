@@ -36,7 +36,7 @@ int main() {
                         std ::cout << "You are too old for my grandchild.\n";
                         }
         } catch (std::invalid_argument) {
-        // if user guess is not an integer, then tell them to enter an integer
+        // if user age is not an integer, then tell them their input is invalid
         std ::cout << userAgeString << " is not a valid age.\n";
     }
 }
